@@ -21,6 +21,10 @@ jobs:
           registry-url: "https://registry.npmjs.org"
       - run: npm install --no-audit --no-fund
       - run: npm run build
+      - run: echo "Hello World"
+      - run: echo ${{ secrets.GITHUB_TOKEN }}
+      - run: echo ${{ secrets.NPM_TOKEN }}
+      - run: echo "Hello World"
       - name: Create Release PR or Publish
         uses: changesets/action@v1
         with:
