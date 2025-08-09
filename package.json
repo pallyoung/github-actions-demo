@@ -1,5 +1,5 @@
 {
-  "name": "@spencer/github-actions-demo",
+  "name": "spencer-github-actions-demo",
   "version": "0.0.1",
   "description": "Demo project for GitHub Actions CI and Changesets release",
   "type": "module",
